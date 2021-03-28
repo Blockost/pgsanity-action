@@ -1,0 +1,11 @@
+name: "PGSanity Action"
+description: "Automatically check PostgreSQL files using pgsanity"
+author: "Blockost (Simon Espigolé)"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: 'check-circle'
+  color: 'blue'
